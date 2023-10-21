@@ -11,8 +11,10 @@ export default function () {
         <TextField id="outlined-multiline-static" label="Answer" multiline rows={8} style={{ width: 500, borderRadius: 10 }} />
       </div>
       <div className="formActionBtnSection">
-        <Button variant="contained" style={{width:100}}>Next</Button>
+      <Button variant="contained" style={{width:200,backgroundColor:"#b4c21f"}}>Suggest Questions</Button>
         <Button variant="contained" style={{width:100}}>Previous</Button>
+        <Button variant="contained" style={{width:100}}>Next</Button>
+        <Button variant="contained" style={{width:100,backgroundColor:"#1fc24a"}}>Submit</Button>
       </div>
     </div>
   )
