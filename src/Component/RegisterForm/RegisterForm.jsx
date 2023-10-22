@@ -1,0 +1,29 @@
+import React from "react"
+import "./RegisterForm.css"
+import { Button, Avatar, TextField } from "@mui/material"
+
+export default function RegisterForm() {
+  return (
+    <div className="RegisterContainer">
+      <div className="RegisterFormPaper">
+        <div className="RegisterMainDisplay"></div>
+        <div className="RegisterMainForm">
+          <div className="RegisterMain">
+            <TextField id="standard-basic" label="Name" variant="standard" />
+            <TextField id="standard-basic" label="Email" variant="standard" />
+            <TextField id="standard-basic" type="password" label="Password" variant="standard" />
+            <TextField id="standard-basic" type="password" label="Confirm Password" variant="standard" />
+            <Button variant="contained" color="success">
+              Register
+            </Button>
+          </div>
+          <div className="RegisterFooter">
+            <span style={{ fontSize: 13, color: "grey" }}>
+              Already have an account? <a href="">Login</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
