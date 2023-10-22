@@ -1,6 +1,7 @@
 import React from "react"
 import "./RegisterForm.css"
 import { Button, Avatar, TextField } from "@mui/material"
+import { Link } from "react-router-dom"
 
 export default function RegisterForm() {
   return (
@@ -19,7 +20,7 @@ export default function RegisterForm() {
           </div>
           <div className="RegisterFooter">
             <span style={{ fontSize: 13, color: "grey" }}>
-              Already have an account? <a href="">Login</a>
+              Already have an account? <Link to="/">Login</Link>
             </span>
           </div>
         </div>
