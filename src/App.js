@@ -1,15 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Form from './Component/Form/Form';
+import "./App.css"
+import LoginForm from "./Component/LoginForm/LoginForm"
 
 function App() {
   return (
     <div className="App">
-      <span className="mainHeading">Let's Train Your Chatbot</span><br/>
-      <span className="subHeading">The More Questions You'll Add, The Better it Will Get...</span>
-      <Form/>
+      <LoginForm/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
