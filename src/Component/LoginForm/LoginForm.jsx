@@ -24,7 +24,7 @@ export default function LoginForm() {
           <div className="loginOAuthIcons">
           <Avatar src="assets/googleauth.png" />
           <Avatar src="assets/facebookauth.png"/>
-          <Avatar src="assets/twitterauth.png"/>
+          <Avatar src="assets/githubauth.png"/>
           </div>
         </div>
         <div className="loginFooter">
